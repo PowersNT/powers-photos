@@ -1,0 +1,117 @@
+/* || General Classes and Selectors */
+
+* {
+    box-sizing: border-box;
+}
+
+.section-container {
+  width: 100%;
+  padding: 0.5 em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.gallery-head {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: rgba(24, 95, 160, 1.0);
+}
+
+/* || Navigation Classes and Selectors */
+
+.bg-nav-colors {
+    background-color: rgba(24, 95, 160, 1.0);
+    border-bottom: 5px solid rgba(247,113, 62, 1.0);
+}
+
+.bg-50-blue {
+    background-color: rgba(24, 95, 160, 0.5);
+}
+
+h3 {
+    color:rgba(255, 255, 255, 1.0);
+}
+
+/* || About Section Classes and Selectors */
+
+.parallax-1 {
+    /* The image used */
+    background-image: url("../img/about-japan.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+    /* The image used */
+    background-image: url("../img/nature-lake.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-3 {
+    /* The image used */
+    background-image: url("../img/landmarks-shasta.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-4 {
+    /* The image used */
+    background-image: url("../img/street-yokohama.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* || About Section Classes and Selectors */
+
+.carousel {
+    position:relative;
+}
+
+.carousel-item {
+    max-height:700px;
+    overflow:hidden;
+}
+
+.carousel-caption {
+    background-color:black;
+    opacity:0.7;
+    border-radius:10px;
+    padding:10px;
+}
+
+ /* || Footer Section Classes and Selectors */
+
+ .bg-foot-colors {
+    background-color: rgba(24, 95, 160, 1.0);
+    border-top: 5px solid rgba(247,113, 62, 1.0);
+}
